@@ -1,11 +1,10 @@
 'use client';
-
+/* eslint-disable */
 import { useGetGamesWithIds } from "@/lib/queryFunctions";
 import GameSkeleton from "@/app/componants/GameSkeleton";
 import Empty from "@/app/componants/defaults/Empty";
 import GameCard from "@/app/componants/GameCard";
 import { useWishlsit } from "@/app/context/wishlistContext";
-import GridContainer from "@/app/componants/defaults/GridContainer";
 
 
 

@@ -10,7 +10,6 @@ import { useGetUser } from "@/lib/queryFunctions";
 import { Skeleton } from "@/components/ui/skeleton";
 import { LogOutIcon, SettingsIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { log } from "console";
 import { logout } from "@/app/actions/auth";
 import { toast } from "react-toastify";
 import {  useQueryClient } from "@tanstack/react-query";

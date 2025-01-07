@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
-import { Query } from "@tanstack/react-query";
 import QueryProvider from "@/lib/QueryProvider";
 
 const montserrat = Montserrat({

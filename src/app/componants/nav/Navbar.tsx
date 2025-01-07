@@ -6,7 +6,6 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoGameControllerSharp } from "react-icons/io5";
 import Link from "next/link";
 import { useGetUser } from "@/lib/queryFunctions";
-import { Skeleton } from "@/components/ui/skeleton";
 import User from "../User";
 import CustomSkeleton from "../CustomSkeleton";
 

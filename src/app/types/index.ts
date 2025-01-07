@@ -90,10 +90,6 @@ export interface Game {
     slug: string;
   }
   
-  interface Screenshot {
-    id: number;
-    image: string;
-  }
 
 
   

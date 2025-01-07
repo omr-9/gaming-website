@@ -5,8 +5,7 @@ import {
   PaginationEllipsis,
   PaginationItem,
   PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
+  
 } from "@/components/ui/pagination";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import React from "react";

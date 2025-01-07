@@ -11,8 +11,8 @@ export const removeFromWishList = async (gameId: string) => {
     user.wishlist = user.wishlist.filter((id: string) => id !== gameId);
     await user.save();
     return { success: "Game removed from wishlist" };
-  } catch (error) {
-    return { error: "add to wishlist failed" };
+  } catch (error: any) {
+    return { error:` "add to wishlist failed" ${error.message}` };
   }
 };
 

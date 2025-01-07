@@ -1,7 +1,5 @@
-import { create } from "domain";
-import mongoose, { Schema } from "mongoose";
-import { unique } from "next/dist/build/utils";
 
+import mongoose, { Schema } from "mongoose";
 const gameReviewSchema = new Schema({
     gameId: {type: String, required: true},
     userId:{type:Schema.Types.ObjectId, ref:'User', required: true},

@@ -1,5 +1,4 @@
 "use client";
-import { Skeleton } from "@/components/ui/skeleton";
 import { useGetGame } from "@/lib/queryFunctions";
 import React, { useState } from "react";
 import { Game } from "../types";

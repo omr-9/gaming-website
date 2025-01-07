@@ -9,7 +9,7 @@ import FormInput from "../FormInput";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { login } from "@/app/actions/auth";
-import { redirect, useRouter } from "next/navigation";
+import {  useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 
 const loginSchema = z.object({

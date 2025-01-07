@@ -75,7 +75,7 @@ const Search = () => {
                 </div>
               ))
             ) : (
-              <p className="text-center text-white py-4">No games found with "{search}" query</p>
+              <p className="text-center text-white py-4">{`No games found with "${search}" query`}</p>
             )}
           </MotionItem>
         )}

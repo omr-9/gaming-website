@@ -1,13 +1,11 @@
 import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/hover-card";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 import { FaPlaystation } from "react-icons/fa";
 import { FaXbox } from "react-icons/fa";
 import { FaSteam } from "react-icons/fa";
 import ImageSwitcher from "./ImageSwitcher";
-import MotionItem from "./defaults/MotionItem";
-// import AddToWishList from "./AddToWishList";
 import { Game } from "../types";
 import AddToWishlist from "./AddToWishlis";
 

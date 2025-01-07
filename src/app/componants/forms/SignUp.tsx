@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState, useTransition } from "react";
+import React, { useRef, useState } from "react";
 import MotionItem from "../defaults/MotionItem";
 import { z } from "zod";
 import FormInput from "../FormInput";
@@ -36,7 +36,7 @@ const SignUp = () => {
   const [loading, setLoading] = useState(false);
   const firstRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
-  const [isPending, startTransition] = useTransition();
+
   const form = useForm<z.infer<typeof RegisterScima>>({
     resolver: zodResolver(RegisterScima),
     defaultValues: {
