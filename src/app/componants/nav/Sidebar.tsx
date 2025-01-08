@@ -18,7 +18,7 @@ const Sidebar = () => {
   const { user, isLoading } = useGetUser();
   const queryClient = useQueryClient();
 
-  const NAV_LINKS = [
+ const NAV_LINKS = [
     {
       link: "/",
       label: "Home",

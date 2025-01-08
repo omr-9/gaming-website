@@ -2,19 +2,19 @@
 import React from "react";
 import Search from "../Search";
 import ButtonGame from "../defaults/ButtonGame";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { IoGameControllerSharp } from "react-icons/io5";
 import Link from "next/link";
 import { useGetUser } from "@/lib/queryFunctions";
 import User from "../User";
 import CustomSkeleton from "../CustomSkeleton";
+import MenuToggle from "../MenuToggle";
 
 const Navbar = () => {
   const { user, isLoading } = useGetUser();
   return (
     <div className="flex flex-col-reverse sm:flex-row items-center gap-4">
       <div className="flex items-center gap-4 w-full">
-        <RxHamburgerMenu className="w-10 h-10 cursor-pointer hover:opacity-70 duration-200 flex sm:hidden" />
+        <MenuToggle />
         <Search />
       </div>
 
